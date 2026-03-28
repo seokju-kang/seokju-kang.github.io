@@ -17,6 +17,8 @@ Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNI
   National Research Foundation of Korea (NRF), Sep 2025 – Aug 2026
 
 ### Projects
+* **National Research Foundation of Korea (NRF)**, Principal Investigator, Sep 2026 – Aug 2028 <br>
+  Title: "Research on Dynamic Replication and Hedging of Financial Derivatives with Reinforcement Learning" 
 * **National Research Foundation of Korea (NRF)**, Principal Investigator, Sep 2025 – Aug 2026 <br>
   Title: "Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management" 
 
