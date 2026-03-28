@@ -12,10 +12,6 @@ Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNI
 * **Pusan National University**, Busan, South Korea<br>
   B.S. in Industrial Engineering, Mar 2018 – Feb 2024
 
-### Awards & Grants
-* Research Subsidies for Master’s Students, National Research Foundation of Korea (NRF)<br>
-  KRW 12,000,000, Sep 2025 – Aug 2026
-
 ### Projects
 * **National Research Foundation of Korea (NRF)**, Principal Investigator, Sep 2025 – Aug 2026 <br>
   Title: "Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management" 
