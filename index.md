@@ -18,6 +18,6 @@ Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNI
 
 ## Projects
 
-## Teaching Assistants
+## Teaching
 
 
