@@ -19,6 +19,6 @@ Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNI
 ### Projects
 
 ### Teaching
-* Teaching Assistant, Statisitics (MTH21103), UNIST Spring 2026
-* Teaching Assistant, Risk Management} (FIA40401), UNIST, Fall 2025
-* Teaching Assistant, Quantitative Finance} (FIA33201), UNIST, Spring 2025
+* Teaching Assistant, Statisitics (MTH21103), UNIST, Spring 2026
+* Teaching Assistant, Risk Management (FIA40401), UNIST, Fall 2025
+* Teaching Assistant, Quantitative Finance (FIA33201), UNIST, Spring 2025
