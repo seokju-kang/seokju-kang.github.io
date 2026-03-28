@@ -18,7 +18,7 @@ Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNI
 
 ### Projects
 * **National Research Foundation of Korea (NRF)**, Principal Investigator, Sep 2025 – Aug 2026 <br>
-  "Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management" 
+  Title: "Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management" 
 
 ### Teaching
 * Teaching Assistant, Statisitics (MTH21103), UNIST, Spring 2026
