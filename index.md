@@ -14,7 +14,7 @@ Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNI
 
 ### Awards & Grants
 * Research Subsidies for Master’s Students, National Research Foundation of Korea (NRF)<br>
-  National Research Foundation of Korea (NRF), Sep 2025 – Aug 2026
+  KRW 12,000,000, Sep 2025 – Aug 2026
 * Excellence Graduate Award, College of Engineering Alumni Association, Pusan National University, Feb 2024
 
 ### Projects
