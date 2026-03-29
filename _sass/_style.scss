@@ -102,6 +102,9 @@ hr {
 }
 
 @media (max-width: 500px) {
+    body {
+        font-size: 14px;   /* 기본 16px보다 작게 */
+    }
 	.navbar {
 		text-align: center;
 		padding: 50px 0px 0px 0px;
