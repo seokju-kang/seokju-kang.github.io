@@ -102,6 +102,11 @@ hr {
 }
 
 @media (max-width: 500px) {
+    .content .profile-picture {
+        float: none;
+        display: block;
+        margin: 0 auto 15px auto;
+    }
     body {
         font-size: 14px;   /* 기본 16px보다 작게 */
     }
