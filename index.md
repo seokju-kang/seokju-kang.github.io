@@ -4,7 +4,7 @@ layout: default
 
 <img class="profile-picture" src="sherlock.jpg">
 
-Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNIST under the supervision of [Prof. Hyun Jin Jang](https://sites.google.com/site/janghj/). I received B.S. in Industrial Engineering from Pusan National University. 
+Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNIST under the supervision of <u>[Prof. Hyun Jin Jang](https://sites.google.com/site/janghj/)</u>. I received B.S. in Industrial Engineering from Pusan National University. 
 
 My research domain is in Financial Engineering with a particular emphasis on risk management, derivatives pricing, and quantitative methods in finance.
 
