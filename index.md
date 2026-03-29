@@ -18,7 +18,7 @@ My research domain is in Financial Engineering with a particular emphasis on ris
 
 ### Project
 * **National Research Foundation of Korea (NRF)**, Principal Investigator, Sep 2025 – Aug 2026<br>
-  Project Title: "Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management"
+  Title: "Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management"
    
 
 ### Teaching
