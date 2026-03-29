@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<img class="profile-picture" src="profile.png">
+
 Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNIST. I received B.S. in Industrial Engineering from Pusan National University.
 
 ---
