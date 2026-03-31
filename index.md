@@ -17,6 +17,8 @@ My research domain is in Financial Engineering with a particular emphasis on ris
   B.S. in Industrial Engineering, Mar 2018 – Feb 2024
 
 ### Project
+* **National Research Foundation of Korea (NRF)**, Principal Investigator, Sep 2026 – Aug 2028<br>
+  Project Title: "Research on Dynamic Replication and Hedging of Financial Derivatives with Reinforcement Learning"
 * **National Research Foundation of Korea (NRF)**, Principal Investigator, Sep 2025 – Aug 2026<br>
   Project Title: "Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management"
    
