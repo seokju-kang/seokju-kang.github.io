@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img class="profile-picture" src="profile.png">
+<img class="profile-picture" src="default_profile.png">
 
 Hello, everyone. I am currently a Ph.D. student in Management Engineering at UNIST under the supervision of <a href="https://sites.google.com/site/janghj/" style="text-decoration: underline;">Prof. Hyun Jin Jang</a>. I received B.S. in Industrial Engineering from Pusan National University. 
 
