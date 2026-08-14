@@ -26,7 +26,7 @@ body-classes: home-page
     <li><strong>TODO: 주제 3.</strong> 한 줄 설명.</li>
   </ul>
 
-  <p class="contact-email">jukang [at] unist [dot] ac [dot] kr</p>
+  <p class="contact-email">jukang@unist.ac.kr</p>
 
   <p class="role-availability"><strong><!-- TODO: 구직/협업 안내 문구 (없으면 이 줄 전체 삭제) --></strong></p>
 
