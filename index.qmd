@@ -5,11 +5,8 @@ page-layout: article
 body-classes: home-page
 ---
 
-<!-- 레퍼런스(vaseline555.github.io)와 동일한 구조입니다. TODO 표시 부분만 본인 내용으로 바꾸세요. -->
-
 <section class="home-intro" aria-label="Profile">
   <h1>Seokju Kang</h1>
-  <p class="pronunciation">(석주)</p>
 
   <!-- TODO: 프로필 사진을 assets/profile.png 로 넣은 뒤 아래 주석을 해제하세요.
        figcaption은 사진 아래 작은 캡션 문구입니다. -->
