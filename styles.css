@@ -1098,3 +1098,8 @@ footer.footer .nav-footer {
   border-bottom: none;
   padding-bottom: 0;
 }
+
+/* 홈 Projects 목록: 배지가 없으므로 메타 줄 들여쓰기 제거 */
+.home-intro .publication-meta {
+  margin-left: 0;
+}
