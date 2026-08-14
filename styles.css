@@ -1077,3 +1077,17 @@ footer.footer .nav-footer {
     display: none;
   }
 }
+
+/* 네비바 항목들을 본문 컬럼과 같은 좌우 여백으로 정렬 */
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar .navbar-container {
+  width: min(var(--site-content-width), calc(100% - 2.5rem));
+  max-width: var(--site-content-width);
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
