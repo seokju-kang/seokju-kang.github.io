@@ -1103,3 +1103,9 @@ footer.footer .nav-footer {
 .home-intro .publication-meta {
   margin-left: 0;
 }
+
+/* 홈 Projects 목록: 항목 사이 구분선 제거, 간격은 여백으로만 */
+.home-intro .publication-item {
+  border-bottom: none;
+  padding: 0.5rem 0 0.55rem;
+}
