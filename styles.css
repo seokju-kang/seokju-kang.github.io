@@ -1109,3 +1109,10 @@ footer.footer .nav-footer {
   border-bottom: none;
   padding: 0.5rem 0 0.55rem;
 }
+
+/* 홈: Projects 끝(소셜 링크 위)의 가로선 제거 */
+.home-intro .home-menu {
+  border-top: none;
+  padding-top: 0.4rem;
+  margin-top: 1rem;
+}
