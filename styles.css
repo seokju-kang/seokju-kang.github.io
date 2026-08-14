@@ -1091,3 +1091,10 @@ footer.footer .nav-footer {
   padding-left: 0;
   padding-right: 0;
 }
+
+/* 홈 화면 이름(h2 첫 번째)은 섹션 제목과 달리 밑줄 없이 표시 */
+.home-intro > h2:first-child {
+  margin-top: 0.2rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
