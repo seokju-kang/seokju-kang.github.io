@@ -25,19 +25,19 @@ body-classes: home-page
   <div class="publication-heading">
   <span class="publication-title">An AI-Integrated Platform for Algorithmic Trading and Risk Management</span>
   </div>
-  <p class="publication-meta">Research Assistant · National Research Foundation of Korea · Mar. 2026 – Feb. 2029</p>
+  <p class="publication-meta">Research Assistant, National Research Foundation of Korea, Mar. 2026 – Feb. 2029</p>
   </article>
   <article class="publication-item">
   <div class="publication-heading">
   <span class="publication-title">Research on Dynamic Replication and Hedging of Financial Derivatives with Reinforcement Learning</span>
   </div>
-  <p class="publication-meta">Principal Investigator · National Research Foundation of Korea · Sep. 2026 – Aug. 2028 · Research Subsidies for Ph.D. Candidates</p>
+  <p class="publication-meta">Principal Investigator, National Research Foundation of Korea, Sep. 2026 – Aug. 2028</p>
   </article>
   <article class="publication-item">
   <div class="publication-heading">
   <span class="publication-title">Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management</span>
   </div>
-  <p class="publication-meta">Principal Investigator · National Research Foundation of Korea · Sep. 2025 – Aug. 2026 · Research Subsidies for Master's Students</p>
+  <p class="publication-meta">Principal Investigator, National Research Foundation of Korea, Sep. 2025 – Aug. 2026</p>
   </article>
   </div>
 
