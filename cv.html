@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-df07115ad9f15e2ef3479c789e6873c8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark-2480fd73ef37b76fc56f796fff274136.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -258,11 +258,6 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Seokju Kang</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -290,13 +285,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/seokju-kang"> <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -308,7 +296,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -316,6 +306,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Curriculum Vitae</h1>
+<p class="subtitle lead">LAST UPDATED: August 15, 2026</p>
 </div>
 
 
@@ -332,31 +323,68 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- TODO: CV 내용을 채우거나, PDF가 있다면 아래 방식으로 임베드할 수 있습니다:
-<iframe src="assets/cv.pdf" width="100%" height="800px" style="border:none;"></iframe>
--->
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<ul>
-<li><strong>UNIST</strong> — Ulsan National Institute of Science and Technology</li>
-</ul>
-</section>
-<section id="experience" class="level2">
-<h2 class="anchored" data-anchor-id="experience">Experience</h2>
-<ul>
-<li><!-- TODO --></li>
-</ul>
-</section>
-<section id="skills" class="level2">
-<h2 class="anchored" data-anchor-id="skills">Skills</h2>
-<ul>
-<li>Python (NumPy, SciPy, Matplotlib), 금융공학 시뮬레이션</li>
-</ul>
+<!-- 레퍼런스와 동일하게 CV PDF를 임베드하는 구조입니다.
+     TODO: CV PDF를 Google Drive에 올리고 "링크가 있는 모든 사용자 보기 가능"으로 공유한 뒤,
+     아래 data-pdf-src 의 FILE_ID 를 본인 것으로 바꾸세요.
+     (Drive 공유 링크가 https://drive.google.com/file/d/FILE_ID/view 형태일 때 /view 를 /preview 로) -->
+<div class="pdf-preview-host" data-pdf-src="https://drive.google.com/file/d/FILE_ID/preview" data-pdf-title="Curriculum Vitae PDF">
+
+</div>
+<script>
+(() => {
+  const host = document.querySelector(".pdf-preview-host[data-pdf-src]");
+  const load = () => {
+    const frame = document.createElement("iframe");
+    frame.className = "pdf-frame";
+    frame.src = host.dataset.pdfSrc;
+    frame.title = host.dataset.pdfTitle;
+    frame.allow = "autoplay";
+    host.replaceChildren(frame);
+  };
+
+  if (document.readyState === "complete") {
+    window.setTimeout(load, 250);
+  } else {
+    window.addEventListener("load", () => window.setTimeout(load, 250), { once: true });
+  }
+})();
+</script>
 
 
-</section>
 
 </main> <!-- /main -->
+<button class="floating-sticker" type="button" aria-label="Back to top">
+  <img src="./assets/fun-sticker.gif" alt="" draggable="false">
+</button>
+<script src="./assets/floating-star.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const wireSearchButton = () => {
+      const button = document.querySelector("#quarto-search .aa-DetachedSearchButton");
+      if (!button || button.dataset.searchFallback === "true") {
+        return;
+      }
+
+      button.dataset.searchFallback = "true";
+      button.addEventListener("click", (event) => {
+        if (typeof window.quartoOpenSearch === "function") {
+          event.preventDefault();
+          window.quartoOpenSearch();
+        }
+      });
+    };
+
+    wireSearchButton();
+
+    const search = document.querySelector("#quarto-search");
+    if (search) {
+      new MutationObserver(wireSearchButton).observe(search, {
+        childList: true,
+        subtree: true,
+      });
+    }
+  });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

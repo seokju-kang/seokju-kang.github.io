@@ -11,21 +11,21 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Paper Title Here Seokju Kang, Coauthor Name Working paper, 2026"
+    "text": "Under Review\n    TODO: 논문 제목\n  \n  Seokju Kang, Coauthor Name\n  Under review at TODO\n  Details\n  Role: TODO\n  Description: TODO\n  BibTeX:\n  @article{TBD}"
   },
   {
-    "objectID": "publications.html#working-papers",
-    "href": "publications.html#working-papers",
+    "objectID": "publications.html#manuscripts-under-review",
+    "href": "publications.html#manuscripts-under-review",
     "title": "Publications",
     "section": "",
-    "text": "Paper Title Here Seokju Kang, Coauthor Name Working paper, 2026"
+    "text": "Under Review\n    TODO: 논문 제목\n  \n  Seokju Kang, Coauthor Name\n  Under review at TODO\n  Details\n  Role: TODO\n  Description: TODO\n  BibTeX:\n  @article{TBD}"
   },
   {
-    "objectID": "publications.html#conference-presentations",
-    "href": "publications.html#conference-presentations",
+    "objectID": "publications.html#peer-reviewed-publications",
+    "href": "publications.html#peer-reviewed-publications",
     "title": "Publications",
-    "section": "Conference Presentations",
-    "text": "Conference Presentations"
+    "section": "Peer-Reviewed Publications",
+    "text": "Peer-Reviewed Publications\n\n\n\n  \n    TODO 2026\n    TODO: 논문 제목\n  \n  Seokju Kang, Coauthor Name\n  TODO: 저널/학회 이름\n  Details\n  Description: TODO\n  BibTeX:\n  @article{TBD}"
   },
   {
     "objectID": "posts/black-scholes-delta-hedging/index.html",
@@ -77,73 +77,10 @@
     "text": "GBM Simulation\n\nnp.random.seed(1234)\n\nS = np.empty([M,N+1])\nrv = np.random.normal(r*dt,sigsdt,[M,N])\n\n\nfor i in range(M):\n    S[i,0] = S0\n    for j in range(N):\n        S[i,j+1] = S[i,j] * (1+rv[i,j])\n\nfor i in range(M):\n    plt.plot(S[i,:])\n\nplt.show()\n\n\n\n\n\n\n\n\n\nS.shape\n\n(1000, 31)\n\n\n\\[\n(\\Delta_0 - 0)S_0 + (\\Delta_1 - \\Delta_0)S_1 + (\\Delta_2 - \\Delta_1)S_2 + \\cdots + (\\Delta_{T-1} - \\Delta_{T-2})S_{T-1} + (\\Delta_T - \\Delta_{T-1})S_T\n\\]\n\nBlack-Scholes 공식을 함수로\n콜옵션과 함께 풋옵션(정해진 가격에 팔 권리) 가격 공식도 함수로 만들어 둡니다:\n\\[C_0 = S_0 N(d_1) - K e^{-rT} N(d_2) \\qquad \\text{(콜)}\\]\n\\[P_0 = K e^{-rT} N(-d_2) - S_0 N(-d_1) \\qquad \\text{(풋)}\\]\n\n💡 콜과 풋은 대칭 관계입니다. 두 식을 빼면 풋-콜 패리티 \\(C_0 - P_0 = S_0 - Ke^{-rT}\\) 가 나옵니다.\n\n\n# BS formula\n\n# call option\ndef bscall(S, K, T, r, sig):\n    d1 = (np.log(S/K)+(r+0.5*sig**2)*T)/(sig*np.sqrt(T))\n    d2 = (np.log(S/K)+(r-0.5*sig**2)*T)/(sig*np.sqrt(T))\n    return S*norm.cdf(d1)-K*np.exp(-r*T)*norm.cdf(d2)\n\n# put option\ndef bsput(S, K, T, r, sig):\n    d1 = (np.log(S/K)+(r+0.5*sig**2)*T)/(sig*np.sqrt(T))\n    d2 = (np.log(S/K)+(r-0.5*sig**2)*T)/(sig*np.sqrt(T))\n    return K*np.exp(-r*T)*norm.cdf(-d2)-S*norm.cdf(-d1)\n\n\nbscall(S0, K, T, r, sig)\n\nnp.float64(2.2871506280449694)\n\n\n\n\n최종 확인: 헤징 손익 = 0?\n만기 payoff까지 정산한 뒤 옵션 판매가격(BS 가격) 을 빼면, 완벽한 헤징이라면 손익이 0 근처에 모여야 합니다. \\(x\\)축(만기 주가) 어디에서든 \\(y\\)(손익)가 0 근처에 붙어 있는지 확인해 보세요.\n\na = []\n\nfor i in range(M):\n    cost = 0\n    hedge = 0\n    for j in range(N):\n        d1 = (np.log(S[i,j]/K)+(r+0.5*sig**2)*(T-j*dt))/(sig*np.sqrt(T-j*dt))\n        delta = norm.cdf(d1)\n        cost = cost + (delta-hedge) * S[i,j] # 위에 있는 식 그대로\n        hedge = delta\n\n    # cost = cost - hedge * S[i,N] # 마지막 항\n    cost = cost - hedge * S[i,N] + np.maximum(S[i,N]-K, 0)\n    #cost = cost - hedge * S[i,N] + np.maximum(S[i,N]-K, 0) - bscall(S0, K, T, r, sig)\n\n    a.append(cost)\n\nplt.plot(S[:,-1], a, marker=\".\", linestyle='none')\nplt.show()\n\n\n\n\n\n\n\n\n기존 식에서 코드를 간결하게 만들기 위해.. 바꿔준 식. 결국 결과는 같음!\n\\[\n(\\Delta_0 - 0)S_0 + (\\Delta_1 - \\Delta_0)S_1 + (\\Delta_2 - \\Delta_1)S_2 + \\cdots + (\\Delta_{T-1} - \\Delta_{T-2})S_{T-1} + (\\Delta_T - \\Delta_{T-1})S_T \\\\\n\\]\n\\[\n\\Delta_0 (S_0-S_1) + \\Delta_1 (S_1-S_2) + \\Delta_2 (S_2-S_3) + \\cdots + \\Delta_{T-1} (S_{T-1}-S_T) + \\Delta_T S_T\n\\]\n\na = []\n\nfor i in range(M):\n\n    cost = 0\n    price = S[i,0]\n\n    for j in range(N):\n        d1 = (np.log(S[i,j]/K)+(r+0.5*sig**2)*(T-j*dt))/(sig*np.sqrt(T-j*dt))\n        delta = norm.cdf(d1) # call option delta\n        cost = cost + delta*(price - S[i, j+1])\n        price = S[i,j+1]\n\n    cost = cost + np.maximum(S[i,N]-K, 0) - bscall(S0, K, T, r, sig)\n\n    a.append(cost)\n\nplt.plot(S[:, -1], a, marker=\".\", linestyle='none')\nplt.show()"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "Quantitative finance and asset pricing\nDerivatives pricing and dynamic hedging\nMachine learning applications in finance"
-  },
-  {
-    "objectID": "research.html#research-interests",
-    "href": "research.html#research-interests",
-    "title": "Research",
-    "section": "",
-    "text": "Quantitative finance and asset pricing\nDerivatives pricing and dynamic hedging\nMachine learning applications in finance"
-  },
-  {
-    "objectID": "research.html#ongoing-projects",
-    "href": "research.html#ongoing-projects",
-    "title": "Research",
-    "section": "Ongoing Projects",
-    "text": "Ongoing Projects\n\nCointegration & Autoencoders —"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Seokju Kang",
     "section": "",
-    "text": "Hi, I’m Seokju Kang. I am at UNIST (Ulsan National Institute of Science and Technology).\nMy research interests include quantitative finance, asset pricing, and machine learning applications in finance."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Seokju Kang",
-    "section": "Education",
-    "text": "Education\n\nUNIST —"
-  },
-  {
-    "objectID": "index.html#interests",
-    "href": "index.html#interests",
-    "title": "Seokju Kang",
-    "section": "Interests",
-    "text": "Interests\n\nQuantitative Finance\nDerivatives & Hedging\nMachine Learning in Finance"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "UNIST — Ulsan National Institute of Science and Technology"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "UNIST — Ulsan National Institute of Science and Technology"
-  },
-  {
-    "objectID": "cv.html#experience",
-    "href": "cv.html#experience",
-    "title": "Curriculum Vitae",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "cv.html#skills",
-    "href": "cv.html#skills",
-    "title": "Curriculum Vitae",
-    "section": "Skills",
-    "text": "Skills\n\nPython (NumPy, SciPy, Matplotlib), 금융공학 시뮬레이션"
+    "text": "Seokju Kang\n\n\n(석주)\n\n\n\n\nHi, I’m Seokju! \n\n\n\n\n\n\n\n\nResearch Highlights\n\n\n\nTODO: 주제 1. 키워드를 포함한 한 줄 설명 (학회/연도).\n\n\nTODO: 주제 2. 한 줄 설명.\n\n\nTODO: 주제 3. 한 줄 설명.\n\n\n\njukang [at] unist [dot] ac [dot] kr"
   }
 ]

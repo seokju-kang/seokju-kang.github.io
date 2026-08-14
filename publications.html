@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-df07115ad9f15e2ef3479c789e6873c8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark-2480fd73ef37b76fc56f796fff274136.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -258,11 +258,6 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Seokju Kang</span>
-    </a>
-  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -288,13 +283,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/seokju-kang"> <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
-<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -332,23 +320,86 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- TODO: 논문이 생기면 아래 형식으로 추가하세요 -->
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
-<ul>
-<li><strong>Paper Title Here</strong> Seokju Kang, Coauthor Name <em>Working paper, 2026</em></li>
-</ul>
+<!-- 레퍼런스와 동일한 카드형 논문 목록 구조입니다.
+     TODO: 아래 템플릿 항목(publication-item)을 복사해서 논문마다 하나씩 채우세요.
+     배지(publication-badge) 문구는 자유롭게: Under Review / KDD 2026 / Working Paper 등 -->
+<section id="manuscripts-under-review" class="level2">
+<h2 class="anchored" data-anchor-id="manuscripts-under-review">Manuscripts under Review</h2>
+<div class="publication-list">
+
+<article class="publication-item">
+  <div class="publication-heading">
+    <span class="publication-badge">Under Review</span>
+    <span class="publication-title">TODO: 논문 제목</span>
+  </div>
+  <p class="publication-authors"><span class="term-highlight">Seokju Kang</span>, Coauthor Name</p>
+  <p class="publication-meta">Under review at TODO</p>
+  <details class="publication-details"><summary>Details</summary><div class="publication-detail-body">
+  <p><strong>Role:</strong> TODO</p>
+  <p><strong>Description:</strong> TODO</p>
+  <p><strong>BibTeX:</strong></p>
+  <pre><code>@article{TBD}</code></pre>
+  </div></details>
+</article>
+
+</div>
 </section>
-<section id="conference-presentations" class="level2">
-<h2 class="anchored" data-anchor-id="conference-presentations">Conference Presentations</h2>
-<ul>
-<li><!-- TODO --></li>
-</ul>
+<section id="peer-reviewed-publications" class="level2">
+<h2 class="anchored" data-anchor-id="peer-reviewed-publications">Peer-Reviewed Publications</h2>
+<div class="publication-list">
+
+<article class="publication-item">
+  <div class="publication-heading">
+    <span class="publication-badge">TODO 2026</span>
+    <span class="publication-title">TODO: 논문 제목</span>
+  </div>
+  <p class="publication-authors"><span class="term-highlight">Seokju Kang</span>, Coauthor Name</p>
+  <p class="publication-meta">TODO: 저널/학회 이름</p>
+  <details class="publication-details"><summary>Details</summary><div class="publication-detail-body">
+  <p><strong>Description:</strong> TODO</p>
+  <p><strong>BibTeX:</strong></p>
+  <pre><code>@article{TBD}</code></pre>
+  </div></details>
+</article>
+
+</div>
 
 
 </section>
 
 </main> <!-- /main -->
+<button class="floating-sticker" type="button" aria-label="Back to top">
+  <img src="./assets/fun-sticker.gif" alt="" draggable="false">
+</button>
+<script src="./assets/floating-star.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const wireSearchButton = () => {
+      const button = document.querySelector("#quarto-search .aa-DetachedSearchButton");
+      if (!button || button.dataset.searchFallback === "true") {
+        return;
+      }
+
+      button.dataset.searchFallback = "true";
+      button.addEventListener("click", (event) => {
+        if (typeof window.quartoOpenSearch === "function") {
+          event.preventDefault();
+          window.quartoOpenSearch();
+        }
+      });
+    };
+
+    wireSearchButton();
+
+    const search = document.querySelector("#quarto-search");
+    if (search) {
+      new MutationObserver(wireSearchButton).observe(search, {
+        childList: true,
+        subtree: true,
+      });
+    }
+  });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
