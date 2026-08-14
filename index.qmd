@@ -26,10 +26,6 @@ body-classes: home-page
     <li><strong>TODO: 주제 3.</strong> 한 줄 설명.</li>
   </ul>
 
-  <p class="contact-email">jukang@unist.ac.kr</p>
-
-  <p class="role-availability"><strong><!-- TODO: 구직/협업 안내 문구 (없으면 이 줄 전체 삭제) --></strong></p>
-
   <nav class="home-menu social-links" aria-label="Social links">
     <!-- TODO: Google Scholar 프로필이 있으면 YOUR_ID를 바꾸고 주석 해제
     <a class="no-external" href="https://scholar.google.com/citations?user=YOUR_ID" aria-label="Google Scholar" title="Google Scholar" target="_blank" rel="noopener noreferrer">
