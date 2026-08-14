@@ -20,10 +20,6 @@ website:
         text: Home
       - href: cv.qmd
         text: CV
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
       - href: blog.qmd
         text: Blog
   page-footer:
