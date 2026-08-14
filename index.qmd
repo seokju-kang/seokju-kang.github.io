@@ -18,13 +18,28 @@ body-classes: home-page
 
   <p><!-- TODO: 가벼운 소개 문단 (취미, 협업 환영 문구 등). --></p>
 
-  <h2>Research Highlights</h2>
+  <h2>Projects</h2>
 
-  <ul class="research-highlights">
-    <li><strong>TODO: 주제 1.</strong> <span class="term-highlight">키워드</span>를 포함한 한 줄 설명 (학회/연도).</li>
-    <li><strong>TODO: 주제 2.</strong> 한 줄 설명.</li>
-    <li><strong>TODO: 주제 3.</strong> 한 줄 설명.</li>
-  </ul>
+  <div class="publication-list">
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">An AI-Integrated Platform for Algorithmic Trading and Risk Management</span>
+  </div>
+  <p class="publication-meta">Research Assistant · National Research Foundation of Korea · Mar. 2026 – Feb. 2029</p>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Research on Dynamic Replication and Hedging of Financial Derivatives with Reinforcement Learning</span>
+  </div>
+  <p class="publication-meta">Principal Investigator · National Research Foundation of Korea · Sep. 2026 – Aug. 2028 · Research Subsidies for Ph.D. Candidates</p>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management</span>
+  </div>
+  <p class="publication-meta">Principal Investigator · National Research Foundation of Korea · Sep. 2025 – Aug. 2026 · Research Subsidies for Master's Students</p>
+  </article>
+  </div>
 
   <nav class="home-menu social-links" aria-label="Social links">
     <!-- TODO: Google Scholar 프로필이 있으면 YOUR_ID를 바꾸고 주석 해제
