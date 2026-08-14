@@ -1,0 +1,21 @@
+/* 사이트 전역 커스텀 스타일 */
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+.navbar {
+  font-weight: 500;
+}
+
+/* 블로그 목록 카드 간격 */
+.quarto-listing .listing-title {
+  font-weight: 600;
+}
+
+/* 본문 최대 폭을 살짝 좁혀 가독성 향상 */
+#quarto-document-content {
+  max-width: 860px;
+}
