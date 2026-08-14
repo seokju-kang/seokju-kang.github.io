@@ -9,7 +9,7 @@ body-classes: home-page
   <h2>Seokju Kang</h2>
 
   <figure class="profile-card">
-    <img src="assets/profile.png" alt="Seokju Kang" />
+    <img src="assets/profile.jpeg" alt="Seokju Kang" />
   </figure>
 
   <p>Hi, I'm Seokju! <!-- TODO: 소속/직위 한 문장. 예: I am a graduate student at UNIST. --></p>
