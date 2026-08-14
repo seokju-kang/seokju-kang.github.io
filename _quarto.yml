@@ -41,7 +41,6 @@ format:
     smooth-scroll: true
     link-external-icon: true
     include-after-body:
-      - assets/floating-star.html
       - assets/search-button-fallback.html
     date-format: "MMM D, YYYY"
 
