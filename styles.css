@@ -1129,3 +1129,18 @@ footer.footer .nav-footer {
     font-size: 2rem;
   }
 }
+
+/* 홈 Projects: 원래 목록처럼 각 항목 앞에 불릿(•) 표시 */
+.home-intro .publication-item {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.home-intro .publication-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  color: var(--slate-blue);
+  font-weight: 700;
+}
