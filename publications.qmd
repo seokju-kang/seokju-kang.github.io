@@ -3,14 +3,51 @@ title: "Publications"
 toc: false
 ---
 
-<!-- TODO: 논문이 생기면 아래 형식으로 추가하세요 -->
+<!-- 레퍼런스와 동일한 카드형 논문 목록 구조입니다.
+     TODO: 아래 템플릿 항목(publication-item)을 복사해서 논문마다 하나씩 채우세요.
+     배지(publication-badge) 문구는 자유롭게: Under Review / KDD 2026 / Working Paper 등 -->
 
-## Working Papers
+## Manuscripts under Review
 
-- **Paper Title Here**
-  Seokju Kang, Coauthor Name
-  *Working paper, 2026*
+```{=html}
+<div class="publication-list">
 
-## Conference Presentations
+<article class="publication-item">
+  <div class="publication-heading">
+    <span class="publication-badge">Under Review</span>
+    <span class="publication-title">TODO: 논문 제목</span>
+  </div>
+  <p class="publication-authors"><span class="term-highlight">Seokju Kang</span>, Coauthor Name</p>
+  <p class="publication-meta">Under review at TODO</p>
+  <details class="publication-details"><summary>Details</summary><div class="publication-detail-body">
+  <p><strong>Role:</strong> TODO</p>
+  <p><strong>Description:</strong> TODO</p>
+  <p><strong>BibTeX:</strong></p>
+  <pre><code>@article{TBD}</code></pre>
+  </div></details>
+</article>
 
-- <!-- TODO -->
+</div>
+```
+
+## Peer-Reviewed Publications
+
+```{=html}
+<div class="publication-list">
+
+<article class="publication-item">
+  <div class="publication-heading">
+    <span class="publication-badge">TODO 2026</span>
+    <span class="publication-title">TODO: 논문 제목</span>
+  </div>
+  <p class="publication-authors"><span class="term-highlight">Seokju Kang</span>, Coauthor Name</p>
+  <p class="publication-meta">TODO: 저널/학회 이름</p>
+  <details class="publication-details"><summary>Details</summary><div class="publication-detail-body">
+  <p><strong>Description:</strong> TODO</p>
+  <p><strong>BibTeX:</strong></p>
+  <pre><code>@article{TBD}</code></pre>
+  </div></details>
+</article>
+
+</div>
+```

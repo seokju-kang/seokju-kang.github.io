@@ -7,11 +7,14 @@ project:
 website:
   title: "Seokju Kang"
   site-url: "https://seokju-kang.github.io"
+  # favicon: assets/favicon.png   # TODO: 파비콘 이미지를 넣은 뒤 주석 해제
+  # google-analytics: "G-XXXXXXXXXX"   # TODO: GA를 쓰려면 본인 측정 ID로 교체
   search:
     location: navbar
     type: overlay
   navbar:
     pinned: true
+    title: false
     left:
       - href: index.qmd
         text: Home
@@ -23,10 +26,6 @@ website:
         text: Publications
       - href: blog.qmd
         text: Blog
-    right:
-      - icon: github
-        href: https://github.com/seokju-kang
-        aria-label: GitHub
   page-footer:
     left: "Made with [Quarto](https://quarto.org)"
     right: "© 2026 Seokju Kang"
@@ -35,12 +34,15 @@ format:
   html:
     theme:
       light: cosmo
-      dark: darkly
+      dark: cosmo
     css: styles.css
     toc: true
     respect-user-color-scheme: true
     smooth-scroll: true
     link-external-icon: true
+    include-after-body:
+      - assets/floating-star.html
+      - assets/search-button-fallback.html
     date-format: "MMM D, YYYY"
 
 execute:
