@@ -1,0 +1,47 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/**
+
+website:
+  title: "Seokju Kang"
+  site-url: "https://seokju-kang.github.io"
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/seokju-kang
+        aria-label: GitHub
+  page-footer:
+    left: "Made with [Quarto](https://quarto.org)"
+    right: "© 2026 Seokju Kang"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    respect-user-color-scheme: true
+    smooth-scroll: true
+    link-external-icon: true
+    date-format: "MMM D, YYYY"
+
+execute:
+  freeze: auto

@@ -1,0 +1,16 @@
+---
+title: "Research"
+toc: false
+---
+
+<!-- TODO: 연구 관심사/진행 중인 프로젝트를 소개하세요 -->
+
+## Research Interests
+
+- Quantitative finance and asset pricing
+- Derivatives pricing and dynamic hedging
+- Machine learning applications in finance
+
+## Ongoing Projects
+
+- **Cointegration & Autoencoders** — <!-- TODO: 진행 중인 연구 한 줄 소개 -->

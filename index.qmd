@@ -1,0 +1,33 @@
+---
+title: "Seokju Kang"
+about:
+  template: trestles
+  # 프로필 사진을 assets/profile.png 로 넣은 뒤 아래 줄의 주석(#)을 해제하세요
+  # image: assets/profile.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:jukang@unist.ac.kr
+    - icon: github
+      text: GitHub
+      href: https://github.com/seokju-kang
+    # - icon: mortarboard
+    #   text: Google Scholar
+    #   href: https://scholar.google.com/citations?user=YOUR_ID
+---
+
+<!-- TODO: 아래 소개글을 본인 내용으로 수정하세요 -->
+
+Hi, I'm Seokju Kang. I am at UNIST (Ulsan National Institute of Science and Technology).
+
+My research interests include quantitative finance, asset pricing, and machine learning applications in finance.
+
+## Education
+
+- **UNIST** — <!-- TODO: 학위/전공/기간 -->
+
+## Interests
+
+- Quantitative Finance
+- Derivatives & Hedging
+- Machine Learning in Finance
