@@ -6,7 +6,7 @@ body-classes: home-page
 ---
 
 <section class="home-intro" aria-label="Profile">
-  <h1>Seokju Kang</h1>
+  <h2>Seokju Kang</h2>
 
   <figure class="profile-card">
     <img src="assets/profile.jpeg" alt="Seokju Kang" />
