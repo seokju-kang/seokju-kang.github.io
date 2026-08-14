@@ -6,16 +6,11 @@ body-classes: home-page
 ---
 
 <section class="home-intro" aria-label="Profile">
-  <h1>Seokju Kang</h1>
+  <h2>Seokju Kang</h2>
 
-  <!-- TODO: 프로필 사진을 assets/profile.png 로 넣은 뒤 아래 주석을 해제하세요.
-       figcaption은 사진 아래 작은 캡션 문구입니다. -->
-  <!--
   <figure class="profile-card">
     <img src="assets/profile.png" alt="Seokju Kang" />
-    <figcaption>TODO: 캡션 한 줄</figcaption>
   </figure>
-  -->
 
   <p>Hi, I'm Seokju! <!-- TODO: 소속/직위 한 문장. 예: I am a graduate student at UNIST. --></p>
 
