@@ -1144,3 +1144,8 @@ footer.footer .nav-footer {
   color: var(--slate-blue);
   font-weight: 700;
 }
+
+/* 홈 Projects: 제목 볼드 해제 */
+.home-intro .publication-title {
+  font-weight: 400;
+}
