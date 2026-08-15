@@ -1167,3 +1167,9 @@ footer.footer .nav-footer {
 .home-intro h2 .anchorjs-link {
   display: none;
 }
+
+/* 푸터 글씨를 본문 컬럼과 같은 좌우 라인에 정렬 (경계선은 전체 폭 유지) */
+footer.footer .nav-footer {
+  padding-left: max(1.25rem, calc((100% - var(--site-content-width)) / 2));
+  padding-right: max(1.25rem, calc((100% - var(--site-content-width)) / 2));
+}
