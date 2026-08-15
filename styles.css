@@ -1173,3 +1173,10 @@ footer.footer .nav-footer {
   padding-left: max(1.25rem, calc((100% - var(--site-content-width)) / 2));
   padding-right: max(1.25rem, calc((100% - var(--site-content-width)) / 2));
 }
+
+/* 데스크톱: 첫 메뉴(Home) 글자가 본문 왼쪽 라인에 정확히 붙도록 */
+@media (min-width: 768px) {
+  .navbar .navbar-nav .nav-item:first-child .nav-link {
+    padding-left: 0;
+  }
+}
