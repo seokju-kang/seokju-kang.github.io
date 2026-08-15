@@ -1149,3 +1149,8 @@ footer.footer .nav-footer {
 .home-intro .publication-title {
   font-weight: 400;
 }
+
+/* 홈 Working Papers: 저자 줄도 불릿 기준 왼쪽 정렬 */
+.home-intro .publication-authors {
+  margin-left: 0;
+}
