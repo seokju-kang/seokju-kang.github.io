@@ -58,4 +58,19 @@ body-classes: home-page
   </article>
   </div>
 
+  <h2>Education</h2>
+
+  <div class="publication-list">
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Combined M.S./Ph.D. in Management Engineering, UNIST, Ulsan, South Korea, Mar. 2024 – Present</span>
+  </div>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">B.S. in Industrial Engineering, Pusan National University, Busan, South Korea, Mar. 2018 – Feb. 2024</span>
+  </div>
+  </article>
+  </div>
+
 </section>
