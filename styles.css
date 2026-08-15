@@ -114,7 +114,7 @@ body:has(.quarto-color-scheme-toggle.alternate) .navbar {
   font-weight: 600;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 0px) {
   .navbar-container {
     display: flex;
     align-items: center;
@@ -1173,7 +1173,7 @@ footer.footer .nav-footer {
 }
 
 /* 데스크톱: 첫 메뉴(Home) 글자가 본문 왼쪽 라인에 정확히 붙도록 */
-@media (min-width: 768px) {
+@media (min-width: 0px) {
   .navbar .navbar-nav .nav-item:first-child .nav-link {
     padding-left: 0;
   }
