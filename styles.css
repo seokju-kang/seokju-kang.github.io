@@ -1154,3 +1154,10 @@ footer.footer .nav-footer {
 .home-intro .publication-authors {
   margin-left: 0;
 }
+
+/* 모바일: 홈 이름 가운데 정렬 */
+@media (max-width: 767.98px) {
+  .home-intro > h2:first-child {
+    text-align: center;
+  }
+}
