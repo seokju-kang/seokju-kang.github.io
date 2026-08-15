@@ -1183,3 +1183,56 @@ footer.footer .nav-footer {
 .home-intro .publication-authors {
   margin-bottom: 0.3rem;
 }
+
+/* 모바일(768px 미만): 메뉴는 햄버거로 접고, 아이콘들은 웹과 같은 스타일/위치 유지 */
+@media (max-width: 767.98px) {
+  .navbar-container {
+    flex-wrap: wrap;
+  }
+
+  .navbar .navbar-toggler {
+    display: inline-flex;
+    align-items: center;
+    order: 0;
+    padding-left: 0;
+    margin-left: 0;
+    border: none;
+  }
+
+  .navbar .navbar-collapse {
+    order: 10;
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+
+  .navbar .navbar-collapse:not(.show):not(.collapsing) {
+    display: none !important;
+  }
+
+  .navbar .navbar-collapse.show {
+    display: block !important;
+  }
+
+  .navbar .navbar-nav {
+    flex-direction: column;
+  }
+
+  /* 펼친 메뉴의 링크들을 본문 왼쪽 라인에 맞춤 */
+  .navbar .navbar-nav .nav-link {
+    padding-left: 0;
+  }
+}
+
+/* 헤더를 푸터와 같은 방식으로 본문 좌우 라인에 정렬 (모든 화면 폭) */
+.navbar {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.navbar .navbar-container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding-left: max(1.25rem, calc((100% - var(--site-content-width)) / 2)) !important;
+  padding-right: max(1.25rem, calc((100% - var(--site-content-width)) / 2)) !important;
+}
