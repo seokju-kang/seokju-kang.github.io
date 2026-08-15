@@ -1117,11 +1117,9 @@ footer.footer .nav-footer {
   margin-top: 1rem;
 }
 
-/* 홈 이름: 데스크톱에서는 Publications 섹션 제목(기본 h2)과 같은 크기, 모바일은 1.32rem 유지 */
-@media (min-width: 768px) {
-  .home-intro > h2:first-child {
-    font-size: calc(1.325rem + 0.9vw);
-  }
+/* 홈 이름: 모든 화면에서 기본 h2와 같은 유동 크기 */
+.home-intro > h2:first-child {
+  font-size: calc(1.325rem + 0.9vw);
 }
 
 @media (min-width: 1200px) {
