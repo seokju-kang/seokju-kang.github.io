@@ -1140,9 +1140,9 @@ footer.footer .nav-footer {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.96rem; /* 제목 첫 줄의 세로 중앙 */
-  width: 0.35rem;
-  height: 0.35rem;
+  top: 1rem; /* 제목 첫 줄의 세로 중앙 */
+  width: 0.28rem;
+  height: 0.28rem;
   background: var(--slate-blue);
 }
 
