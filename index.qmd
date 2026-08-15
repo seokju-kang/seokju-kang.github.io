@@ -58,18 +58,26 @@ body-classes: home-page
   </article>
   </div>
 
-  <h2>Education</h2>
+  <h2>Teaching</h2>
 
   <div class="publication-list">
   <article class="publication-item">
   <div class="publication-heading">
-  <span class="publication-title">Combined M.S./Ph.D. in Management Engineering, UNIST, Ulsan, South Korea, Mar. 2024 – Present</span>
+  <span class="publication-title">Statistics (MTH21103) for undergraduate</span>
   </div>
+  <p class="publication-meta">Teaching Assistant, Spring 2026</p>
   </article>
   <article class="publication-item">
   <div class="publication-heading">
-  <span class="publication-title">B.S. in Industrial Engineering, Pusan National University, Busan, South Korea, Mar. 2018 – Feb. 2024</span>
+  <span class="publication-title">Risk Management (FIA40401) for undergraduate</span>
   </div>
+  <p class="publication-meta">Teaching Assistant, Fall 2025, Fall 2026</p>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Quantitative Finance (FIA33201) for undergraduate</span>
+  </div>
+  <p class="publication-meta">Teaching Assistant, Spring 2025</p>
   </article>
   </div>
 
