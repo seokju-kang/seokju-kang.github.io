@@ -1209,7 +1209,8 @@ footer.footer .nav-footer {
     display: none !important;
   }
 
-  .navbar .navbar-collapse.show {
+  .navbar .navbar-collapse.show,
+  .navbar .navbar-collapse.collapsing {
     display: block !important;
   }
 
