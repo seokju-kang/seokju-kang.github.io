@@ -1178,3 +1178,8 @@ footer.footer .nav-footer {
     padding-left: 0;
   }
 }
+
+/* 홈 Working Papers: 저자→저널 간격을 제목→저자 간격(0.3rem)과 동일하게 */
+.home-intro .publication-authors {
+  margin-bottom: 0.3rem;
+}
