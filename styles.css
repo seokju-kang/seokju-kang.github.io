@@ -1236,3 +1236,8 @@ footer.footer .nav-footer {
   padding-left: max(1.25rem, calc((100% - var(--site-content-width)) / 2)) !important;
   padding-right: max(1.25rem, calc((100% - var(--site-content-width)) / 2)) !important;
 }
+
+/* 햄버거 아이콘: SVG 내부 여백(30px 중 3px)만큼 당겨 선이 본문 라인에 붙도록 */
+.navbar .navbar-toggler .navbar-toggler-icon {
+  margin-left: -10%;
+}
