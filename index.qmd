@@ -39,6 +39,25 @@ body-classes: home-page
   </article>
   </div>
 
+  <h2>Working Papers</h2>
+
+  <div class="publication-list">
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Global vs. Regional Oil Shocks and Systemic Risk in Lithium Firms: Evidence from a CoVaR Approach</span>
+  </div>
+  <p class="publication-authors">Hyun Jin Jang, Seokju Kang</p>
+  <p class="publication-meta">Applied Economics Letters, R&amp;R</p>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Market Integration and Regime Shifts in WTI and Brent Crude Oil Markets</span>
+  </div>
+  <p class="publication-authors">Hyun Jin Jang, Robert I. Webb, Seokju Kang</p>
+  <p class="publication-meta">Applied Economics, R&amp;R</p>
+  </article>
+  </div>
+
   <nav class="home-menu social-links" aria-label="Social links">
     <!-- TODO: Google Scholar 프로필이 있으면 YOUR_ID를 바꾸고 주석 해제
     <a class="no-external" href="https://scholar.google.com/citations?user=YOUR_ID" aria-label="Google Scholar" title="Google Scholar" target="_blank" rel="noopener noreferrer">
