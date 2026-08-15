@@ -46,14 +46,14 @@ body-classes: home-page
   <div class="publication-heading">
   <span class="publication-title">Global vs. Regional Oil Shocks and Systemic Risk in Lithium Firms: Evidence from a CoVaR Approach</span>
   </div>
-  <p class="publication-authors">Hyun Jin Jang, Seokju Kang</p>
+  <p class="publication-authors">Hyun Jin Jang, <strong>Seokju Kang</strong></p>
   <p class="publication-meta">Applied Economics Letters, R&amp;R</p>
   </article>
   <article class="publication-item">
   <div class="publication-heading">
   <span class="publication-title">Market Integration and Regime Shifts in WTI and Brent Crude Oil Markets</span>
   </div>
-  <p class="publication-authors">Hyun Jin Jang, Robert I. Webb, Seokju Kang</p>
+  <p class="publication-authors">Hyun Jin Jang, Robert I. Webb, <strong>Seokju Kang</strong></p>
   <p class="publication-meta">Applied Economics, R&amp;R</p>
   </article>
   </div>
