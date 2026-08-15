@@ -1137,12 +1137,13 @@ footer.footer .nav-footer {
 }
 
 .home-intro .publication-item::before {
-  content: "•";
+  content: "";
   position: absolute;
   left: 0;
-  top: 0.5rem;
-  color: var(--slate-blue);
-  font-weight: 700;
+  top: 0.96rem; /* 제목 첫 줄의 세로 중앙 */
+  width: 0.35rem;
+  height: 0.35rem;
+  background: var(--slate-blue);
 }
 
 /* 홈 Projects: 제목 볼드 해제 */
