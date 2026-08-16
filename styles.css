@@ -1242,3 +1242,17 @@ footer.footer .nav-footer {
 .navbar .navbar-toggler .navbar-toggler-icon {
   margin-left: -10%;
 }
+
+/* 홈 bio 아래 이메일 줄 */
+.home-intro .bio-email {
+  margin-top: 0.2rem;
+}
+
+.home-intro .bio-email a {
+  color: var(--slate-blue);
+  text-decoration: none;
+}
+
+.home-intro .bio-email a:hover {
+  text-decoration: underline;
+}
