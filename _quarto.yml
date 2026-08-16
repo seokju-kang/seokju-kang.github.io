@@ -21,8 +21,8 @@ website:
       - href: cv.qmd
         text: CV
   page-footer:
-    left: "© 2026 Seokju Kang"
-    right: "Last updated: Aug. 2026"
+    left: "© {{YEAR}} Seokju Kang"
+    right: "Last updated: {{LAST_UPDATED}}"   # 배포 시 GitHub Actions가 자동으로 현재 연월로 치환
 
 format:
   html:
