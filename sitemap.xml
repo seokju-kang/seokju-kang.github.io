@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://seokju-kang.github.io/blog.html</loc>
-    <lastmod>2026-08-15T10:56:27.202Z</lastmod>
+    <loc>https://seokju-kang.github.io/index.html</loc>
+    <lastmod>2026-08-16T05:24:08.787Z</lastmod>
   </url>
   <url>
     <loc>https://seokju-kang.github.io/cv.html</loc>
-    <lastmod>2026-08-15T10:56:27.202Z</lastmod>
-  </url>
-  <url>
-    <loc>https://seokju-kang.github.io/posts/black-scholes-delta-hedging/index.html</loc>
-    <lastmod>2026-08-15T10:56:27.207Z</lastmod>
-  </url>
-  <url>
-    <loc>https://seokju-kang.github.io/index.html</loc>
-    <lastmod>2026-08-15T10:56:27.202Z</lastmod>
+    <lastmod>2026-08-16T05:24:08.787Z</lastmod>
   </url>
 </urlset>
