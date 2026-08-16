@@ -14,7 +14,7 @@ body-classes: home-page
 
   <p>Hello, I'm Seokju! I am currently a Ph.D. candidate in Management Engineering at UNIST, advised by Prof. Hyun Jin Jang. I received my B.S. in Industrial Engineering from Pusan National University in February 2024.</p>
 
-  <p>My research domain is in Financial Engineering, with a particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on AI applications in finance, including deep learning and deep reinforcement learning.</p>
+  <p>My research domain is in <strong>Financial Engineering</strong>, with a particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI applications in finance</strong>, including deep learning and deep reinforcement learning.</p>
 
   <h2>Working Papers</h2>
 
