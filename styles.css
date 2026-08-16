@@ -1246,6 +1246,7 @@ footer.footer .nav-footer {
 /* 홈 bio 아래 이메일 줄 */
 .home-intro .bio-email {
   margin-top: 0.2rem;
+  margin-bottom: 2.2rem; /* 목록 하단 여백과 동일 → 다음 섹션 제목까지 거리 통일 */
 }
 
 .home-intro .bio-email a {
