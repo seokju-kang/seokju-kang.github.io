@@ -21,8 +21,8 @@ website:
       - href: cv.qmd
         text: CV
   page-footer:
-    left: "Made with [Quarto](https://quarto.org)"
-    right: "© 2026 Seokju Kang"
+    left: "© 2026 Seokju Kang"
+    right: "Last updated: Aug. 2026"
 
 format:
   html:
