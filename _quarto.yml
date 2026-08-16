@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Seokju Kang"
-  description: "Seokju Kang's Personal Website"
+  description: "Seokju Kang's Personal Homepage"
   site-url: "https://seokju-kang.github.io"
   open-graph: true
   twitter-card: true
