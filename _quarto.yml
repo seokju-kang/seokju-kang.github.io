@@ -6,7 +6,10 @@ project:
 
 website:
   title: "Seokju Kang"
+  description: "Seokju Kang's Personal Website"
   site-url: "https://seokju-kang.github.io"
+  open-graph: true
+  twitter-card: true
   # favicon: assets/favicon.png   # TODO: 파비콘 이미지를 넣은 뒤 주석 해제
   # google-analytics: "G-XXXXXXXXXX"   # TODO: GA를 쓰려면 본인 측정 ID로 교체
   search:
@@ -34,6 +37,8 @@ format:
     respect-user-color-scheme: true
     smooth-scroll: true
     link-external-icon: true
+    include-in-header:
+      - assets/meta-description.html
     include-after-body:
       - assets/search-button-fallback.html
     date-format: "MMM D, YYYY"
