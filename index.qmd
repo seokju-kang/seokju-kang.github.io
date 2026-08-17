@@ -18,7 +18,7 @@ body-classes: home-page
 
   <div class="publication-list bio-contact">
   <article class="publication-item">
-  <p class="bio-email"><strong>Contact Email:</strong> <a href="mailto:jukang@unist.ac.kr">jukang@unist.ac.kr</a></p>
+  <p class="bio-email">E-mail: <a href="mailto:jukang@unist.ac.kr">jukang@unist.ac.kr</a></p>
   </article>
   </div>
 
