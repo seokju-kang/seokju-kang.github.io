@@ -1254,3 +1254,12 @@ footer.footer .nav-footer {
   color: var(--slate-blue);
   text-decoration: underline;
 }
+
+
+/* 홈 Working Papers: 논문 제목 볼드 + 밑줄 */
+.home-intro .working-papers .publication-title {
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 0.06em;
+}

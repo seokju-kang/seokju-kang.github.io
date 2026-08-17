@@ -24,7 +24,7 @@ body-classes: home-page
 
   <h2>Working Papers</h2>
 
-  <div class="publication-list">
+  <div class="publication-list working-papers">
   <article class="publication-item">
   <div class="publication-heading">
   <span class="publication-title">Global vs. Regional Oil Shocks and Systemic Risk in Lithium Firms: Evidence from a CoVaR Approach</span>
