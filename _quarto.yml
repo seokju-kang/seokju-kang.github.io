@@ -24,6 +24,7 @@ website:
       - href: cv.qmd
         text: CV
   page-footer:
+    left: "Made with [Quarto](https://quarto.org)"
     right: "© {{YEAR}} Seokju Kang"   # 배포 시 GitHub Actions가 자동으로 현재 연도로 치환
 
 format:
