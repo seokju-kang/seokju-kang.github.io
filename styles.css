@@ -1263,3 +1263,16 @@ footer.footer .nav-footer {
   text-underline-offset: 0.18em;
   text-decoration-thickness: 0.06em;
 }
+
+/* 페이지 제목 블록(CV 등): 제목은 홈 이름과, 부제는 본문(bio)과 같은 크기 */
+body:not(.home-page) #title-block-header h1.title {
+  font-size: calc(1.325rem + 0.9vw);
+  line-height: 1.2;
+}
+
+body:not(.home-page) #title-block-header .subtitle.lead {
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--ink);
+}
