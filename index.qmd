@@ -27,7 +27,7 @@ body-classes: home-page
   <div class="publication-list working-papers">
   <article class="publication-item">
   <div class="publication-heading">
-  <span class="publication-title">Global vs. Regional Oil Shocks and Systemic Risk in Lithium Firms: Evidence from a CoVaR Approach</span>
+  <span class="publication-title">Global versus Regional Oil Shocks and Systemic Risk in Lithium Firms: Evidence from a CoVaR Approach</span>
   </div>
   <p class="publication-authors">Hyun Jin Jang, <strong>Seokju Kang</strong></p>
   <p class="publication-meta">Applied Economics Letters, R&amp;R</p>
