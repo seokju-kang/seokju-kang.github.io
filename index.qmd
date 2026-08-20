@@ -14,7 +14,7 @@ body-classes: home-page
 
   <p>I am currently a Ph.D. candidate in Management Engineering at UNIST, advised by Prof. Hyun Jin Jang. Prior to that, I received my B.S. in Industrial Engineering from Pusan National University in February 2024.</p>
 
-  <p>My research domain is in <strong>Financial Engineering</strong>, with a particular emphasis on risk management, derivatives pricing, and quantitative finance. I am also working on <strong>AI/OR applications in finance</strong>.</p>
+  <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>.</p>
 
   <div class="publication-list bio-contact">
   <article class="publication-item">
