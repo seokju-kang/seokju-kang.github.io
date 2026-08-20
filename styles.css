@@ -1256,9 +1256,9 @@ footer.footer .nav-footer {
 }
 
 
-/* 홈 Working Papers: 논문 제목 볼드 + 밑줄 */
+/* 홈 Working Papers: 논문 제목 밑줄 (볼드 없음) */
 .home-intro .working-papers .publication-title {
-  font-weight: 650;
+  font-weight: 400;
   text-decoration: underline;
   text-underline-offset: 0.18em;
   text-decoration-thickness: 0.06em;
