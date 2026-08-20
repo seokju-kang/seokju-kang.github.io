@@ -1274,3 +1274,9 @@ body:not(.home-page) #title-block-header .subtitle.lead {
   font-size: 15px;   /* 본문(bio)과 같은 크기; 굵기·색은 기존(700, slate-blue) 유지 */
   line-height: 1.7;
 }
+
+/* 홈 목록의 저자·메타 줄: 본문(bio)과 같은 글씨 크기 */
+.home-intro .publication-authors,
+.home-intro .publication-meta {
+  font-size: 15px;
+}
