@@ -1144,9 +1144,9 @@ footer.footer .nav-footer {
   background: var(--slate-blue);
 }
 
-/* 홈 Projects: 제목 볼드 해제 */
+/* 홈 목록 제목: 볼드 */
 .home-intro .publication-title {
-  font-weight: 400;
+  font-weight: 650;
 }
 
 /* 홈 Working Papers: 저자 줄도 불릿 기준 왼쪽 정렬 */
