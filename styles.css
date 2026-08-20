@@ -983,7 +983,7 @@ body:has(.quarto-color-scheme-toggle.alternate) .quarto-listing .listing-date {
 .nav-footer {
   border-top: 1px solid var(--line);
   color: var(--muted-ink);
-  font-size: 0.92rem;
+  font-size: 15px;   /* 본문(bio)과 동일 */
   justify-content: space-between;
   text-align: left;
 }
