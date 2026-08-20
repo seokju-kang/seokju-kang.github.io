@@ -1144,9 +1144,9 @@ footer.footer .nav-footer {
   background: var(--slate-blue);
 }
 
-/* 홈 목록 제목: 볼드 */
+/* 홈 목록 제목: 일반 굵기 */
 .home-intro .publication-title {
-  font-weight: 650;
+  font-weight: 400;
 }
 
 /* 홈 Working Papers: 저자 줄도 불릿 기준 왼쪽 정렬 */
