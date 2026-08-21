@@ -43,7 +43,7 @@ body-classes: home-page
 
   <h2>Projects</h2>
 
-  <div class="publication-list">
+  <div class="publication-list projects">
   <article class="publication-item">
   <div class="publication-heading">
   <span class="publication-title">An AI-Integrated Platform for Algorithmic Trading and Risk Management</span>
