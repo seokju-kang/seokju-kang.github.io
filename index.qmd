@@ -48,7 +48,7 @@ body-classes: home-page
   <div class="publication-heading">
   <span class="publication-title">An AI-Integrated Platform for Algorithmic Trading and Risk Management</span>
   </div>
-  <p class="publication-meta">Research Assistant, NRF of Korea, Mar. 2026 – Feb. 2029</p>
+  <p class="publication-meta">Participating Researcher, NRF of Korea, Mar. 2026 – Feb. 2029</p>
   </article>
   <article class="publication-item">
   <div class="publication-heading">
