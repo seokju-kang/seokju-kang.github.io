@@ -1287,8 +1287,9 @@ body:not(.home-page) #title-block-header .subtitle.lead {
   font-family: "Newsreader", Georgia, serif;
 }
 
-/* 홈 섹션 제목(이름 제외): 대문자 */
+/* 홈 섹션 제목(이름 제외): 대문자, 구분선과의 간격 축소 */
 .home-intro h2:not(:first-child) {
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  line-height: 1.2;
+  padding-bottom: 0.2rem;
 }
