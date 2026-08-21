@@ -60,6 +60,7 @@ h4,
 .navbar-nav .nav-link {
   color: var(--ink);
   font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
   letter-spacing: 0;
 }
 
@@ -111,7 +112,7 @@ body:has(.quarto-color-scheme-toggle.alternate) .navbar {
 
 .navbar-nav .nav-link {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 @media (min-width: 0px) {
@@ -508,7 +509,7 @@ body:has(.quarto-color-scheme-toggle.alternate) .underbrace-svg {
 .contact-email {
   clear: both;
   color: var(--slate-blue);
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -894,7 +895,7 @@ body:has(.quarto-color-scheme-toggle.alternate) .quarto-listing .listing-date {
   gap: 0.45rem;
   font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.02rem;
-  font-weight: 600;
+  font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
 
