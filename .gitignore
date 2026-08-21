@@ -3,3 +3,6 @@
 .DS_Store
 
 **/*.quarto_ipynb
+
+# 루트에 생기는 렌더 부산물
+/site_libs/
