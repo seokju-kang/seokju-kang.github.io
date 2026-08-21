@@ -347,7 +347,7 @@ body:not(.home-page) main.content > header#title-block-header.quarto-title-block
   max-width: 46rem;
   min-height: calc(100vh - 12rem);
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .home-intro h1 {
@@ -609,7 +609,7 @@ body:has(.quarto-color-scheme-toggle.alternate) .underbrace-svg {
 .publication-list {
   --publication-badge-width: 8.65rem;
   --publication-badge-text-size: 0.74rem;
-  --publication-main-text-size: 16px;
+  --publication-main-text-size: 0.88rem;
   --publication-author-text-size: 0.765rem;
   --publication-title-offset: calc(var(--publication-badge-width) + 0.75rem);
   margin: 0.55rem 0 2.2rem;
@@ -984,7 +984,7 @@ body:has(.quarto-color-scheme-toggle.alternate) .quarto-listing .listing-date {
 .nav-footer {
   border-top: 1px solid var(--line);
   color: var(--muted-ink);
-  font-size: 16px;
+  font-size: 15px;   /* 본문(bio)과 동일 */
   justify-content: space-between;
   text-align: left;
 }
@@ -1269,14 +1269,14 @@ body:not(.home-page) #title-block-header h1.title {
 }
 
 body:not(.home-page) #title-block-header .subtitle.lead {
-  font-size: 16px;   /* 본문(bio)과 같은 크기; 굵기·색은 기존(700, slate-blue) 유지 */
+  font-size: 15px;   /* 본문(bio)과 같은 크기; 굵기·색은 기존(700, slate-blue) 유지 */
   line-height: 1.7;
 }
 
 /* 홈 목록의 저자·메타 줄: 본문(bio)과 같은 글씨 크기 */
 .home-intro .publication-authors,
 .home-intro .publication-meta {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 
