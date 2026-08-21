@@ -110,7 +110,7 @@ body:has(.quarto-color-scheme-toggle.alternate) .navbar {
 }
 
 .navbar-nav .nav-link {
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -1117,16 +1117,11 @@ footer.footer .nav-footer {
   margin-top: 1rem;
 }
 
-/* 홈 이름: 모든 화면에서 기본 h2와 같은 유동 크기 */
+/* 홈 이름: 27px 고정 */
 .home-intro > h2:first-child {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: 27px;
 }
 
-@media (min-width: 1200px) {
-  .home-intro > h2:first-child {
-    font-size: 2rem;
-  }
-}
 
 /* 홈 Projects: 원래 목록처럼 각 항목 앞에 불릿(•) 표시 */
 .home-intro .publication-item {
