@@ -1290,6 +1290,7 @@ body:not(.home-page) #title-block-header .subtitle.lead {
 /* 홈 섹션 제목(이름 제외): 대문자, 구분선과의 간격 축소 */
 .home-intro h2:not(:first-child) {
   text-transform: uppercase;
+  font-size: 18px;
   line-height: 1.2;
   padding-bottom: 0.2rem;
 }
