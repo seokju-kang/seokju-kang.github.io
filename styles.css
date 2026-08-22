@@ -1036,7 +1036,7 @@ footer.footer .nav-footer {
   .profile-card {
     float: none;
     width: var(--profile-size);
-    margin: 0.85rem auto 2rem;
+    margin: 2rem auto 2rem; /* 위·아래 여백 동일 → 부제와 사진이 붙어 보이지 않게 */
   }
 
   .interest-list li {
