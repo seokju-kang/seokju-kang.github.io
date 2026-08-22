@@ -1294,3 +1294,15 @@ footer.footer .nav-footer p {
 .profile-card img {
   border-radius: 0;
 }
+
+
+/* 홈 이름 아래 부제: CV 페이지의 "LAST UPDATED" 부제와 동일 스타일 */
+.home-intro .home-subtitle {
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  color: var(--slate-blue);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.7;
+  letter-spacing: 0;
+}
