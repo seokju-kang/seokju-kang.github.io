@@ -1289,3 +1289,8 @@ footer.footer .nav-footer p {
   font-size: 13px;
 }
 
+
+/* 프로필 사진: 모서리 둥글림 제거 */
+.profile-card img {
+  border-radius: 0;
+}
