@@ -1154,12 +1154,6 @@ footer.footer .nav-footer {
   margin-left: 0;
 }
 
-/* 모바일: 홈 이름 가운데 정렬 */
-@media (max-width: 767.98px) {
-  .home-intro > h2:first-child {
-    text-align: center;
-  }
-}
 
 /* 홈 제목들: Quarto가 삽입하는 투명 앵커 아이콘 제거 (가운데 정렬을 밀어내는 원인) */
 .home-intro h2 .anchorjs-link {
