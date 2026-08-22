@@ -1121,7 +1121,7 @@ footer.footer .nav-footer {
 /* 홈 이름: 섹션 제목과 동일 스타일 (Lato Bold, 18px, 대문자) */
 .home-intro > h2:first-child {
   font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
@@ -1280,7 +1280,7 @@ body:not(.home-page) #title-block-header .subtitle.lead {
 /* 홈 섹션 제목(이름 제외): 대문자, 구분선과의 간격 축소 */
 .home-intro h2:not(:first-child) {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;
   padding-bottom: 0.2rem;
 }
