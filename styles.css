@@ -1261,6 +1261,7 @@ footer.footer .nav-footer {
 body:not(.home-page) #title-block-header h1.title {
   font-size: 21px;
   line-height: 1.2;
+  margin-bottom: 1rem; /* 홈 이름(h2)의 아래 여백과 동일 → 부제와의 간격 통일 */
 }
 
 body:not(.home-page) #title-block-header .subtitle.lead {
