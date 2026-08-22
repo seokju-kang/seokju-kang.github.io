@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "LAST UPDATED: August 15, 2026"
+subtitle: "Last Updated: August 15, 2026"
 ---
 
 <div
