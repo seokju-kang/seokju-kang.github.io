@@ -1258,10 +1258,10 @@ footer.footer .nav-footer {
 }
 
 /* 페이지 제목 블록(CV 등): 제목은 홈 이름과, 부제는 본문(bio)과 같은 크기 */
-body:not(.home-page) #title-block-header h1.title {
+body:not(.home-page) #title-block-header.quarto-title-block.default .quarto-title h1.title {
   font-size: 21px;
   line-height: 1.2;
-  margin-bottom: 1rem; /* 홈 이름(h2)의 아래 여백과 동일 → 부제와의 간격 통일 */
+  margin-bottom: 1rem; /* 홈 이름(h2)의 아래 여백과 동일 → 부제와의 간격 통일 (Quarto 기본 0 덮어쓰기) */
 }
 
 body:not(.home-page) #title-block-header .subtitle.lead {
