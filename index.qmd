@@ -12,7 +12,7 @@ body-classes: home-page
     <img src="assets/profile.jpeg" alt="Seokju Kang" />
   </figure>
 
-  <p>Hello, I am currently a Ph.D. student in Management Engineering at UNIST, advised by Prof. Hyun Jin Jang. Prior to that, I received my B.S. in Industrial Engineering from Pusan National University in February 2024.</p>
+  <p>Hello, I'm Seokju. I am currently a Ph.D. student in Management Engineering at UNIST, advised by Prof. Hyun Jin Jang. Prior to that, I received my B.S. in Industrial Engineering from Pusan National University in February 2024.</p>
 
   <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>.</p>
 
