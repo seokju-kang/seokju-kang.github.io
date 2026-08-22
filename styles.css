@@ -1307,3 +1307,8 @@ footer.footer .nav-footer p {
   line-height: 1.7;
   letter-spacing: 0;
 }
+
+/* CV 부제: Quarto가 작은 화면에서 넣는 padding-top(14px) 제거 → 제목과의 간격을 홈과 동일하게 유지 */
+body:not(.home-page) #quarto-content #title-block-header .subtitle.lead {
+  padding-top: 0;
+}
