@@ -7,6 +7,7 @@ body-classes: home-page
 
 <section class="home-intro" aria-label="Profile">
   <h2>SEOKJU KANG</h2>
+  <p class="home-subtitle">Ph.D. candidate, UNIST</p>
 
   <figure class="profile-card">
     <img src="assets/profile.jpeg" alt="Seokju Kang" />
