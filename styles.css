@@ -1121,7 +1121,7 @@ footer.footer .nav-footer {
 /* 홈 이름: 섹션 제목과 동일 스타일 (Lato Bold, 18px, 대문자) */
 .home-intro > h2:first-child {
   font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1259,7 +1259,7 @@ footer.footer .nav-footer {
 
 /* 페이지 제목 블록(CV 등): 제목은 홈 이름과, 부제는 본문(bio)과 같은 크기 */
 body:not(.home-page) #title-block-header h1.title {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 1.2;
 }
 
