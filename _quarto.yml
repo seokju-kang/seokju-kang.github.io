@@ -21,10 +21,10 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: research.qmd
-        text: Research
       - href: cv.qmd
         text: CV
+      - href: research.qmd
+        text: Research
   page-footer:
     left: "© {{YEAR}} Seokju Kang"   # 배포 시 GitHub Actions가 자동으로 현재 연도로 치환
     right: "Made with [Quarto](https://quarto.org)"
