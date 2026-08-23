@@ -15,7 +15,7 @@ body-classes: home-page
 
   <p>Hello, I'm Seokju Kang. I am currently a Ph.D. student in Management Engineering at UNIST, supervised by Prof. Hyun Jin Jang. Prior to that, I completed my B.S. in Industrial Engineering at Pusan Nat'l University.</p>
 
-  <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>. For more details, please visit my <a href="research.html">research page</a>.</p>
+  <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>. For further details, please visit my <a href="research.html">research page</a>.</p>
 
   <div class="publication-list bio-contact">
   <article class="publication-item">
