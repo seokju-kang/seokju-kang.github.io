@@ -21,6 +21,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: research.qmd
+        text: Research
       - href: cv.qmd
         text: CV
   page-footer:

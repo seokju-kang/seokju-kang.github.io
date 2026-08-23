@@ -1,0 +1,49 @@
+---
+title: "Research"
+toc: false
+---
+
+<section class="home-intro" aria-label="Research">
+  <h2>Working Papers</h2>
+
+  <div class="publication-list working-papers">
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Global versus Regional Oil Shocks and Systemic Risk in Lithium Firms: Evidence from a CoVaR Approach</span>
+  </div>
+  <p class="publication-authors">Hyun Jin Jang, <strong>Seokju Kang</strong></p>
+  <p class="publication-meta"><strong>Applied Economics Letters</strong>, R&amp;R</p>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Market Integration and Regime Shifts in WTI and Brent Crude Oil Markets</span>
+  </div>
+  <p class="publication-authors">Hyun Jin Jang, Robert I. Webb, <strong>Seokju Kang</strong></p>
+  <p class="publication-meta"><strong>Applied Economics</strong>, R&amp;R</p>
+  </article>
+  </div>
+
+  <h2>Projects</h2>
+
+  <div class="publication-list projects">
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">An AI-Integrated Platform for Algorithmic Trading and Risk Management</span>
+  </div>
+  <p class="publication-meta"><strong>Participant, NRF of Korea</strong>, Mar. 2026 – Feb. 2029</p>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Research on Dynamic Replication and Hedging of Financial Derivatives with Reinforcement Learning</span>
+  </div>
+  <p class="publication-meta"><strong>Principal Investigator, NRF of Korea</strong>, Sep. 2026 – Aug. 2028</p>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management</span>
+  </div>
+  <p class="publication-meta"><strong>Principal Investigator, NRF of Korea</strong>, Sep. 2025 – Aug. 2026</p>
+  </article>
+  </div>
+
+</section>
