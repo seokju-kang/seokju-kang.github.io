@@ -21,9 +21,9 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: cv.qmd
+      - href: cv/index.qmd
         text: CV
-      - href: research.qmd
+      - href: research/index.qmd
         text: Research
   page-footer:
     left: "© {{YEAR}} Seokju Kang"   # 배포 시 GitHub Actions가 자동으로 현재 연도로 치환

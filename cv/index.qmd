@@ -1,5 +1,7 @@
 ---
 title: "Curriculum Vitae"
+aliases:
+  - /cv.html
 subtitle: "Last Updated: August 15, 2026"
 ---
 
