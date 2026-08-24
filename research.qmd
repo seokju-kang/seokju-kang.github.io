@@ -40,7 +40,7 @@ toc: false
   </article>
   <article class="publication-item">
   <div class="publication-heading">
-  <span class="publication-title">Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management</span>
+  <span class="publication-title">Development of GAN (Generative Adversarial Network)-based Models for Multivariate Financial Time Series Generation and Risk Management</span>
   </div>
   <p class="publication-meta"><strong>Principal Investigator, NRF of Korea</strong>, Sep. 2025 – Aug. 2026</p>
   </article>
