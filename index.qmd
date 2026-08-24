@@ -17,9 +17,14 @@ body-classes: home-page
 
   <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>. For further details, please visit <a href="research/">the list of my papers and projects</a>.</p>
 
+  <h2>Contact Information</h2>
+
   <div class="publication-list bio-contact">
   <article class="publication-item">
   <p class="bio-email">E-mail: <a href="mailto:jukang@unist.ac.kr">jukang@unist.ac.kr</a></p>
+  </article>
+  <article class="publication-item">
+  <p class="bio-email">Homepage: <a href="https://seokju-kang.github.io/">https://seokju-kang.github.io/</a></p>
   </article>
   </div>
 
