@@ -1323,7 +1323,7 @@ body:not(.home-page) #quarto-content #title-block-header .subtitle.lead {
   font-size: 15px;
   border-bottom: none;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin-bottom: 4px; /* 항목 간 줄 간격과 동일하게 */
 }
 
 .home-intro .bio-contact {
