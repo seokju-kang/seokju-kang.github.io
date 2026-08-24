@@ -4,7 +4,7 @@ toc: false
 ---
 
 <section class="home-intro" aria-label="Research">
-  <h2>Working in Progress</h2>
+  <h2>Works in Progress</h2>
 
   <div class="publication-list wip">
   <article class="publication-item">
