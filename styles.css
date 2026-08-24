@@ -1311,3 +1311,8 @@ footer.footer .nav-footer p {
 body:not(.home-page) #quarto-content #title-block-header .subtitle.lead {
   padding-top: 0;
 }
+
+/* 목록 메타 줄(저널·기관·기간): 회색 대신 본문과 같은 검은색 */
+.home-intro .publication-meta {
+  color: var(--ink);
+}
