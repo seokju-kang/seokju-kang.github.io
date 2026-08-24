@@ -1286,7 +1286,7 @@ body:not(.home-page) #title-block-header .subtitle.lead {
 
 /* 푸터 안쪽 문단: Quarto 기본(0.825em 축소) 무시하고 본문과 같은 15px */
 footer.footer .nav-footer p {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 
