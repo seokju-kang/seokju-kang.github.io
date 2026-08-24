@@ -111,7 +111,7 @@ body:has(.quarto-color-scheme-toggle.alternate) .navbar {
 }
 
 .navbar-nav .nav-link {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 700;
 }
 
