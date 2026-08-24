@@ -6,7 +6,7 @@ body-classes: home-page
 ---
 
 <section class="home-intro" aria-label="Profile">
-  <h2 class="author-name">SEOKJU KANG</h2>
+  <h2 class="author-name">Seokju Kang</h2>
   <p class="home-subtitle">Ph.D. Candidate, UNIST</p>
 
   <figure class="profile-card">
@@ -15,7 +15,7 @@ body-classes: home-page
 
   <p>Hello, I'm Seokju Kang. I am currently a Ph.D. student in Management Engineering at UNIST, supervised by Prof. Hyun Jin Jang. Prior to that, I completed my B.S. in Industrial Engineering at Pusan Nat'l University.</p>
 
-  <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>. For further details, please visit my <a href="research.html">research page</a>.</p>
+  <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>. For further details, please visit <a href="research.html">the list of my publications and projects</a>.</p>
 
   <div class="publication-list bio-contact">
   <article class="publication-item">
