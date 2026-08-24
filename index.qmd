@@ -17,7 +17,7 @@ body-classes: home-page
 
   <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>. For further details, please visit <a href="research/">the list of my papers and projects</a>.</p>
 
-  <h2>Contact Information</h2>
+  <h2 class="contact-heading">Contact Information</h2>
 
   <div class="publication-list bio-contact">
   <article class="publication-item">

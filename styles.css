@@ -1316,3 +1316,17 @@ body:not(.home-page) #quarto-content #title-block-header .subtitle.lead {
 .home-intro .publication-meta {
   color: var(--ink);
 }
+
+
+/* Contact Information: 제목은 본문 크기, 항목 간 세로 간격 제거 */
+.home-intro h2.contact-heading {
+  font-size: 15px;
+}
+
+.home-intro .bio-contact .publication-item {
+  padding: 0;
+}
+
+.home-intro .bio-contact .publication-item::before {
+  top: 0.5rem; /* 패딩 제거에 맞춰 불릿을 첫 줄 중앙으로 */
+}
