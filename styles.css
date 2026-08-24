@@ -1239,8 +1239,8 @@ footer.footer .nav-footer {
 /* 홈 bio 아래 이메일 줄 */
 .home-intro .bio-email {
   margin: 0;
-  font-size: var(--publication-main-text-size);   /* 목록 제목과 동일 → 불릿 정중앙 정렬 */
-  line-height: 1.45;
+  font-size: var(--publication-main-text-size);
+  line-height: 1.7; /* 본문 줄바꿈 간격과 동일 */
 }
 
 .home-intro .bio-email a {
@@ -1336,5 +1336,5 @@ body:not(.home-page) #quarto-content #title-block-header .subtitle.lead {
 }
 
 .home-intro .bio-contact .publication-item::before {
-  top: 0.5rem; /* 패딩 제거에 맞춰 불릿을 첫 줄 중앙으로 */
+  top: 10.4px; /* 줄높이 1.7 기준 첫 줄 세로 중앙 */
 }
