@@ -23,6 +23,26 @@ toc: false
   </article>
   </div>
 
+  <h2>Works in Progress</h2>
+
+  <div class="publication-list wip">
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Dynamic Delta Hedging with Transaction Costs via Deep Reinforcement Learning</span>
+  </div>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Financial Risk Management with Generative Adversarial Networks</span>
+  </div>
+  </article>
+  <article class="publication-item">
+  <div class="publication-heading">
+  <span class="publication-title">Cointegration Relationship between WTI and Brent during the Strait of Hormuz Crisis</span>
+  </div>
+  </article>
+  </div>
+
   <h2>Projects</h2>
 
   <div class="publication-list projects">
@@ -40,7 +60,7 @@ toc: false
   </article>
   <article class="publication-item">
   <div class="publication-heading">
-  <span class="publication-title">Development of GAN (Generative Adversarial Network)-based Models for Multivariate Financial Time Series Generation and Risk Management</span>
+  <span class="publication-title">Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management</span>
   </div>
   <p class="publication-meta"><strong>Principal Investigator, NRF of Korea</strong>, Sep. 2025 – Aug. 2026</p>
   </article>
