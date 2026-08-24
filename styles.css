@@ -1332,7 +1332,7 @@ body:not(.home-page) #quarto-content #title-block-header .subtitle.lead {
 }
 
 .home-intro .bio-contact .publication-item {
-  padding: 0;
+  padding: 0 0 0 1rem; /* 세로 간격만 제거, 불릿 자리(왼쪽)는 유지 */
 }
 
 .home-intro .bio-contact .publication-item::before {
