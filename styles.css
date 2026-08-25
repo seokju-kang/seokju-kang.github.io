@@ -1321,6 +1321,7 @@ body:not(.home-page) #quarto-content #title-block-header .subtitle.lead {
 /* Contact Information: 제목은 본문 크기·밑줄선 없음, 항목 간·제목-항목 간격 제거 */
 .home-intro h2.contact-heading {
   font-size: 15px;
+  font-weight: 400;
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 4px; /* 항목 간 줄 간격과 동일하게 */
