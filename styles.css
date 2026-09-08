@@ -343,7 +343,7 @@ body:not(.home-page) main.content > header#title-block-header.quarto-title-block
 }
 
 .home-intro {
-  --profile-size: 12.6rem;
+  --profile-size: 10.5rem;
   max-width: 46rem;
   min-height: calc(100vh - 12rem);
   margin: 0 auto;
@@ -1030,7 +1030,7 @@ footer.footer .nav-footer {
   }
 
   .home-intro {
-    --profile-size: min(10.2rem, 52vw);
+    --profile-size: min(9rem, 46vw);
   }
 
   .profile-card {
