@@ -343,7 +343,7 @@ body:not(.home-page) main.content > header#title-block-header.quarto-title-block
 }
 
 .home-intro {
-  --profile-size: 160px;
+  --profile-size: 150px;
   max-width: 46rem;
   min-height: calc(100vh - 12rem);
   margin: 0 auto;
