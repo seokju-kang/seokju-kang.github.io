@@ -1030,7 +1030,7 @@ footer.footer .nav-footer {
   }
 
   .home-intro {
-    --profile-size: min(10.2rem, 52vw);
+    --profile-size: min(150px, 52vw);
   }
 
   .profile-card {
