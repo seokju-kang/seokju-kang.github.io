@@ -39,8 +39,8 @@ body-classes: home-page
 
   <ol class="pub-list">
   <li>An AI-Integrated Platform for Algorithmic Trading and Risk Management (Participant, NRF of Korea), Mar. 2026 – Feb. 2029</li>
-  <li>Research on Dynamic Replication and Hedging of Financial Derivatives with Reinforcement Learning (Principal Investigator, NRF of Korea), Sep. 2026 – Aug. 2028</li>
-  <li>Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management (Principal Investigator, NRF of Korea), Sep. 2025 – Aug. 2026</li>
+  <li>Research on Dynamic Replication and Hedging of Financial Derivatives with Reinforcement Learning (PI, NRF of Korea), Sep. 2026 – Aug. 2028</li>
+  <li>Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management (PI, NRF of Korea), Sep. 2025 – Aug. 2026</li>
   </ol>
 
 </section>
