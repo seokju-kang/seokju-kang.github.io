@@ -1339,3 +1339,18 @@ body:not(.home-page) #quarto-content #title-block-header .subtitle.lead {
 .home-intro .bio-contact .publication-item::before {
   top: 10.4px; /* 줄높이 1.7 기준 첫 줄 세로 중앙 */
 }
+
+
+/* 홈 논문·프로젝트 번호 목록 */
+.home-intro ol.pub-list {
+  margin: 0 0 1rem;
+  padding-left: 1.4rem;
+}
+
+.home-intro ol.pub-list li {
+  margin-bottom: 1rem;
+}
+
+.home-intro ol.pub-list li:last-child {
+  margin-bottom: 0;
+}
