@@ -15,7 +15,7 @@ body-classes: home-page
 
   <p>Hello, I'm Seokju Kang. I am currently a Ph.D. student in Management Engineering at UNIST, supervised by Prof. Hyun Jin Jang. Prior to that, I completed my B.S. in Industrial Engineering at Pusan Nat'l University.</p>
 
-  <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>. For further details, please visit <a href="research/">the list of my papers and projects</a>.</p>
+  <p>My research domain is in <strong>Financial Engineering</strong>, with particular emphasis on risk management, derivatives pricing, and quantitative methods in finance. I am also working on <strong>AI/OR applications in finance</strong>.</p>
 
   <h2 class="contact-heading">Contact Information</h2>
 
@@ -27,5 +27,19 @@ body-classes: home-page
   <p class="bio-email">Homepage: <a href="https://seokju-kang.github.io/">https://seokju-kang.github.io/</a></p>
   </article>
   </div>
+
+  <h2 class="contact-heading">Publications</h2>
+
+  <p class="pub-entry">Hyun Jin Jang, <strong>Seokju Kang</strong> (2026). <a href="https://www.tandfonline.com/doi/full/10.1080/13504851.2026.2731141">Global versus regional oil shocks and systemic risk in lithium firms: Evidence from a CoVaR approach</a>. Applied Economics Letters.</p>
+
+  <p class="pub-entry">Hyun Jin Jang, Robert I. Webb, <strong>Seokju Kang</strong> (2026). <a href="https://www.tandfonline.com/doi/full/10.1080/00036846.2026.2727138">Market integration and regime shifts in WTI and Brent crude oil Markets</a>. Applied Economics.</p>
+
+  <h2 class="contact-heading">Projects</h2>
+
+  <p class="pub-entry">An AI-Integrated Platform for Algorithmic Trading and Risk Management<br><strong>Participant, NRF of Korea</strong>, Mar. 2026 – Feb. 2029</p>
+
+  <p class="pub-entry">Research on Dynamic Replication and Hedging of Financial Derivatives with Reinforcement Learning<br><strong>Principal Investigator, NRF of Korea</strong>, Sep. 2026 – Aug. 2028</p>
+
+  <p class="pub-entry">Development of GAN-based Models for Multivariate Financial Time Series Generation and Risk Management<br><strong>Principal Investigator, NRF of Korea</strong>, Sep. 2025 – Aug. 2026</p>
 
 </section>
